@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.ahsaphobby.net/Bitcoin">
+	<xs:element name="faucet">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="FaucetName" type="xs:string"/>
+				<xs:element name="MinPay" type="xs:string"/>
+				<xs:element name="MaxPay" type="xs:string"/>
+				<xs:element name="Payout" type="xs:string"/>
+				<xs:element name="Payment" type="xs:string"/>
+				<xs:element name="Timer" type="xs:time"/>
+				<xs:element name="URL" type="xs:string"/>
+				<xs:element name="Notes" type="xs:string"/>
+				<xs:element name="Remarks" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
